@@ -20,5 +20,5 @@ class ArticlesController < ApplicationController
   end
 
   # add edit and update methods here
-  
+  get 'articles/:id/edit', to: 'articles#edit', as: :edit_article
 end
